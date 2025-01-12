@@ -1,3 +1,4 @@
+import ContactForm from '@/components/ContactForm';
 import { EmailTemplate } from '@/components/EmailTemplate';
 import Image from 'next/image';
 
@@ -8,7 +9,8 @@ export default function Home() {
         <h1 className="text-4xl font-bold text-center sm:text-left">
           Welcome to resend email
         </h1>
-        <EmailTemplate firstName="John" />
+
+        <ContactForm />
       </main>
     </div>
   );
